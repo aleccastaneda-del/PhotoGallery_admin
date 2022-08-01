@@ -12,10 +12,23 @@ using PhotoGallery.http;
 
 namespace PhotoGallery
 {
-    
+    public enum SortType
+    {
+        None,
+        AtoZ,
+        ZtoA,
+        DateAsc,
+        DateDesc
+    }
+    public enum ImageType
+    {
+        PNG,
+        JPG,
+        SVG
+    }
+
     public partial class PhotoGallery : Form
     {
-        #region PARTIALLY PROVIDED
         public PhotoGallery()
         {
             InitializeComponent();
@@ -28,9 +41,8 @@ namespace PhotoGallery
             base.OnFormClosing(e);
             #endregion DO NOT TOUCH
         }
-        #endregion PARTIALLY PROVIDED
 
-        
+
         /// <summary>
         /// Displays a message to the user
         /// </summary>
@@ -55,5 +67,7 @@ namespace PhotoGallery
                 tableLayoutPanel1.SetCellPosition(tableLayoutPanel1.Controls[i], new TableLayoutPanelCellPosition(columnIndex, rowIndex));
             }
         }
+
+    
     }
 }

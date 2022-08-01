@@ -64,7 +64,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ImageData.cs" />
+    <Compile Include="ImageData.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="ImageData.Designer.cs">
       <DependentUpon>ImageData.cs</DependentUpon>
     </Compile>

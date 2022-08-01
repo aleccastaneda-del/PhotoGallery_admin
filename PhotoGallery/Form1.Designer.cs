@@ -22,7 +22,6 @@
 
         #region Windows Form Designer generated code
 
-        #region PARTIALLY PROVIDED
         /// <summary>
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
@@ -34,6 +33,7 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
+
             // 
             // toolStrip1
             // 
@@ -85,7 +85,6 @@
             this.PerformLayout();
 
         }
-        #endregion PARTIALLY PROVIDED
 
         #endregion
 
