@@ -1,0 +1,19 @@
+{
+  "name": "logger",
+  "version": "1.0.0",
+  "description": "Logging module that analyzes any project that requires this as a dependency. Logged results will write to web.log file, which will be created in the root directory of the project.",
+  "author": "Alec Castaneda <aleccastaneda@deloitte.com>",
+  "main": "dist/Logger.js",
+  "types": "dist/Logger.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^13.13.10",
+    "typescript": "^3.8.3"
+  }
+}

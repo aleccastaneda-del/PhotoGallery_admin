@@ -1,0 +1,299 @@
+ERROR >> "2021-04-12T13:26:16.900Z" >> add - Error occurred while adding folder
+ Error: WHERE parameter "ID" has invalid "undefined" value >> File: Error: STACK TRACE
+    at getLocation (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:5:15)
+    at Object.error (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:43:145)
+    at ImageBL.getFolderInfo (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\business\ImageBL.js:122:25)
+ERROR >> "2021-04-12T13:26:37.408Z" >> add - Error occurred while adding folder
+ Error: WHERE parameter "ID" has invalid "undefined" value >> File: Error: STACK TRACE
+    at getLocation (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:5:15)
+    at Object.error (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:43:145)
+    at ImageBL.getFolderInfo (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\business\ImageBL.js:122:25)
+ERROR >> "2021-04-12T13:27:47.932Z" >> add - Error occurred while adding folder
+ Error: WHERE parameter "ID" has invalid "undefined" value >> File: Error: STACK TRACE
+    at getLocation (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:5:15)
+    at Object.error (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:43:145)
+    at ImageBL.getFolderInfo (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\business\ImageBL.js:122:25)
+ERROR >> "2021-04-12T13:32:24.384Z" >> delete - Error occurred while deleting folder data:
+ TypeError: this.folderDAO.destroyFolder is not a function >> File: Error: STACK TRACE
+    at getLocation (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:5:15)
+    at Object.error (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:43:145)
+    at ImageBL.deleteFolder (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\business\ImageBL.js:98:25)
+    at C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\routes\folders.js:11:31
+    at Layer.handle [as handle_request] (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\cors\lib\index.js:219:13
+ERROR >> "2021-04-12T13:32:46.734Z" >> delete - Error occurred while deleting folder data:
+ TypeError: this.folderDAO.destroyFolder is not a function >> File: Error: STACK TRACE
+    at getLocation (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:5:15)
+    at Object.error (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:43:145)
+    at ImageBL.deleteFolder (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\business\ImageBL.js:98:25)
+    at C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\routes\folders.js:11:31
+    at Layer.handle [as handle_request] (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\cors\lib\index.js:219:13
+ERROR >> "2021-04-12T13:33:33.876Z" >> delete - Error occurred while deleting folder data:
+ TypeError: this.folderDAO.destroyFolder is not a function >> File: Error: STACK TRACE
+    at getLocation (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:5:15)
+    at Object.error (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:43:145)
+    at ImageBL.deleteFolder (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\business\ImageBL.js:98:25)
+    at C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\routes\folders.js:11:31
+    at Layer.handle [as handle_request] (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\cors\lib\index.js:219:13
+ERROR >> "2021-04-12T13:33:57.829Z" >> delete - Error occurred while deleting folder data:
+ TypeError: this.folderDAO.destroyFolder is not a function >> File: Error: STACK TRACE
+    at getLocation (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:5:15)
+    at Object.error (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:43:145)
+    at ImageBL.deleteFolder (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\business\ImageBL.js:98:25)
+    at C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\routes\folders.js:11:31
+    at Layer.handle [as handle_request] (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\cors\lib\index.js:219:13
+ERROR >> "2021-04-12T13:35:16.981Z" >> delete - Error occurred while deleting folder data:
+ TypeError: this.folderDAO.destroyFolder is not a function >> File: Error: STACK TRACE
+    at getLocation (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:5:15)
+    at Object.error (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:43:145)
+    at ImageBL.deleteFolder (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\business\ImageBL.js:98:25)
+    at C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\routes\folders.js:11:31
+    at Layer.handle [as handle_request] (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\cors\lib\index.js:219:13
+ERROR >> "2021-04-12T13:36:33.683Z" >> delete - Error occurred while deleting folder data:
+ TypeError: this.folderDAO.destroyFolder is not a function >> File: Error: STACK TRACE
+    at getLocation (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:5:15)
+    at Object.error (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:43:145)
+    at ImageBL.deleteFolder (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\business\ImageBL.js:98:25)
+    at C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\routes\folders.js:11:31
+    at Layer.handle [as handle_request] (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\cors\lib\index.js:219:13
+ERROR >> "2021-04-12T14:03:24.819Z" >> add - Error occurred while adding a new image to folder:
+ SequelizeDatabaseError: value too long for type character varying(255) >> File: Error: STACK TRACE
+    at getLocation (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:5:15)
+    at Object.error (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:43:145)
+    at ImageBL.add (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\business\ImageBL.js:50:25)
+ERROR >> "2021-04-12T14:41:02.627Z" >> add - Error occurred while adding a new image to folder:
+ ReferenceError: atob is not defined >> File: Error: STACK TRACE
+    at getLocation (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:5:15)
+    at Object.error (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:43:145)
+    at ImageBL.add (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\business\ImageBL.js:51:25)
+    at async C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\routes\images.js:17:22
+ERROR >> "2021-04-12T14:44:17.426Z" >> add - Error occurred while adding a new image to folder:
+ ReferenceError: atob is not defined >> File: Error: STACK TRACE
+    at getLocation (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:5:15)
+    at Object.error (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:43:145)
+    at ImageBL.add (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\business\ImageBL.js:51:25)
+    at async C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\routes\images.js:17:22
+ERROR >> "2021-04-12T14:46:26.690Z" >> add - Error occurred while adding a new image to folder:
+ ReferenceError: Blob is not defined >> File: Error: STACK TRACE
+    at getLocation (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:5:15)
+    at Object.error (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:43:145)
+    at ImageBL.add (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\business\ImageBL.js:51:25)
+    at async C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\routes\images.js:17:22
+ERROR >> "2021-04-12T14:49:56.803Z" >> add - Error occurred while adding a new image to folder:
+ SequelizeDatabaseError: value too long for type character varying(255) >> File: Error: STACK TRACE
+    at getLocation (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:5:15)
+    at Object.error (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:43:145)
+    at ImageBL.add (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\business\ImageBL.js:51:25)
+ERROR >> "2021-04-12T14:56:09.500Z" >> add - Error occurred while adding a new image to folder:
+ SequelizeDatabaseError: value too long for type character varying(255) >> File: Error: STACK TRACE
+    at getLocation (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:5:15)
+    at Object.error (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:43:145)
+    at ImageBL.add (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\business\ImageBL.js:51:25)
+ERROR >> "2021-04-12T15:26:27.753Z" >> getImageInfo - Error occurred while querying image data:
+ TypeError: Assignment to constant variable. >> File: Error: STACK TRACE
+    at getLocation (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:5:15)
+    at Object.error (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:43:145)
+    at ImageBL.getImageInfo (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\business\ImageBL.js:34:25)
+    at async C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\routes\images.js:11:22
+ERROR >> "2021-04-12T15:26:48.667Z" >> getImageInfo - Error occurred while querying image data:
+ TypeError: Assignment to constant variable. >> File: Error: STACK TRACE
+    at getLocation (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:5:15)
+    at Object.error (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:43:145)
+    at ImageBL.getImageInfo (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\business\ImageBL.js:34:25)
+    at async C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\routes\images.js:11:22
+ERROR >> "2021-04-12T15:27:07.043Z" >> getImageInfo - Error occurred while querying image data:
+ TypeError: Assignment to constant variable. >> File: Error: STACK TRACE
+    at getLocation (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:5:15)
+    at Object.error (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:43:145)
+    at ImageBL.getImageInfo (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\business\ImageBL.js:34:25)
+    at async C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\routes\images.js:11:22
+ERROR >> "2021-04-13T00:23:09.184Z" >> list - Error occurred while retrieving all images in folder:
+ Error: WHERE parameter "FOLDER_ID" has invalid "undefined" value >> File: Error: STACK TRACE
+    at getLocation (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:5:15)
+    at Object.error (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:43:145)
+    at ImageBL.list (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\business\ImageBL.js:25:25)
+ERROR >> "2021-04-13T05:24:31.548Z" >> list - Error occurred while retrieving all images in folder:
+ SequelizeDatabaseError: column "FOLDERID" does not exist >> File: Error: STACK TRACE
+    at getLocation (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:5:15)
+    at Object.error (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:43:145)
+    at ImageBL.list (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\business\ImageBL.js:25:25)
+ERROR >> "2021-04-13T05:26:09.763Z" >> add - Error occurred while adding a new folder:
+ SequelizeDatabaseError: relation "FOLDER" does not exist >> File: Error: STACK TRACE
+    at getLocation (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:5:15)
+    at Object.error (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:43:145)
+    at ImageBL.addFolder (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\business\ImageBL.js:121:25)
+ERROR >> "2021-04-13T05:27:09.253Z" >> add - Error occurred while adding a new folder:
+ SequelizeDatabaseError: relation "FOLDER" does not exist >> File: Error: STACK TRACE
+    at getLocation (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:5:15)
+    at Object.error (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:43:145)
+    at ImageBL.addFolder (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\business\ImageBL.js:121:25)
+ERROR >> "2021-04-13T05:28:09.228Z" >> add - Error occurred while adding a new folder:
+ SequelizeDatabaseError: relation "FOLDER" does not exist >> File: Error: STACK TRACE
+    at getLocation (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:5:15)
+    at Object.error (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:43:145)
+    at ImageBL.addFolder (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\business\ImageBL.js:121:25)
+ERROR >> "2021-04-13T05:30:08.140Z" >> add - Error occurred while adding a new folder:
+ SequelizeDatabaseError: relation "FOLDER" does not exist >> File: Error: STACK TRACE
+    at getLocation (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:5:15)
+    at Object.error (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:43:145)
+    at ImageBL.addFolder (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\business\ImageBL.js:121:25)
+ERROR >> "2021-04-13T14:53:30.931Z" >> delete - Error occurred while deleting image data:
+ SequelizeDatabaseError: invalid input syntax for type uuid: "" >> File: Error: STACK TRACE
+    at getLocation (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:5:15)
+    at Object.error (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:43:145)
+    at ImageBL.delete (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\business\ImageBL.js:74:25)
+ERROR >> "2021-04-13T14:59:15.161Z" >> delete - Error occurred while deleting image data:
+ SequelizeDatabaseError: invalid input syntax for type uuid: "" >> File: Error: STACK TRACE
+    at getLocation (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:5:15)
+    at Object.error (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:43:145)
+    at ImageBL.delete (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\business\ImageBL.js:74:25)
+ERROR >> "2021-04-13T14:59:15.176Z" >> delete - Error occurred while deleting image data:
+ SequelizeDatabaseError: invalid input syntax for type uuid: "" >> File: Error: STACK TRACE
+    at getLocation (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:5:15)
+    at Object.error (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:43:145)
+    at ImageBL.delete (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\business\ImageBL.js:74:25)
+ERROR >> "2021-04-13T14:59:15.278Z" >> delete - Error occurred while deleting image data:
+ SequelizeDatabaseError: invalid input syntax for type uuid: "" >> File: Error: STACK TRACE
+    at getLocation (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:5:15)
+    at Object.error (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:43:145)
+    at ImageBL.delete (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\business\ImageBL.js:74:25)
+ERROR >> "2021-04-13T14:59:15.375Z" >> delete - Error occurred while deleting image data:
+ SequelizeDatabaseError: invalid input syntax for type uuid: "" >> File: Error: STACK TRACE
+    at getLocation (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:5:15)
+    at Object.error (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:43:145)
+    at ImageBL.delete (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\business\ImageBL.js:74:25)
+ERROR >> "2021-04-13T15:55:36.583Z" >> toggleFavorite - Error occurred while toggling image favorite status:
+ ReferenceError: tmpData is not defined >> File: Error: STACK TRACE
+    at getLocation (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:5:15)
+    at Object.error (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:43:145)
+    at ImageBL.toggleFavorite (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\business\ImageBL.js:87:25)
+    at C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\routes\images.js:29:31
+    at Layer.handle [as handle_request] (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\node_modules\cors\lib\index.js:219:13
+ERROR >> "2021-04-19T03:36:06.657Z" >> add - Error occurred while adding a new folder:
+SequelizeValidationError: notNull Violation: Folder.TEAMID cannot be null >> File: Error: STACK TRACE
+    at getLocation (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:5:15)
+    at Object.error (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:43:145)
+    at ImageBL.addFolder (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\business\ImageBL.js:128:25)
+ERROR >> "2021-04-19T03:37:36.150Z" >> add - Error occurred while adding a new folder:
+SequelizeDatabaseError: column "TEAMID" of relation "FOLDER" does not exist >> File: Error: STACK TRACE
+    at getLocation (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:5:15)
+    at Object.error (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\libraries\logger\dist\Logger.js:43:145)
+    at ImageBL.addFolder (C:\Users\...\Documents\Projects\COPs\Neurodiversity\NDEVAL5\back-end\business\ImageBL.js:128:25)
